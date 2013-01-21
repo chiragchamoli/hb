@@ -25,7 +25,7 @@
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width" />
 <html xmlns:fb="http://ogp.me/ns/fb#">
-<meta property="fb:app_id" content="120973531390205">
+<meta property="fb:app_id" content="526488537371603">
 
 
 
@@ -43,7 +43,7 @@
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=120973531390205";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=526488537371603";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
