@@ -19,7 +19,7 @@ get_header(); ?>
 
 <div style="margin-top:10px;" class="hbfull">
 <div class="main">
-	<a class="logo" href="http://localhost/~chiragchamoli/wordpress/"><img src="<?php bloginfo('template_directory'); ?>/img/hblogo.png" alt=""></a>
+	<a class="logo" href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/hblogo.png" alt=""></a>
 	<?php global $query_string;
 				query_posts($query_string.'&post_type=hb&posts_per_page=1');
 						if ( have_posts() ) : ?>
