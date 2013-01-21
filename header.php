@@ -12,7 +12,6 @@
 
 <!DOCTYPE html>
 
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
@@ -26,7 +25,7 @@
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width" />
 <html xmlns:fb="http://ogp.me/ns/fb#">
-<meta property="fb:app_id" content="{120973531390205}">
+<meta property="fb:app_id" content="120973531390205">
 
 
 
