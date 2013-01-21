@@ -26,6 +26,11 @@
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width" />
 <html xmlns:fb="http://ogp.me/ns/fb#">
+<meta property="fb:app_id" content="{120973531390205}">
+
+
+
+
 <title><?php wp_title(); ?></title>
 
 <?php wp_head(); ?>
