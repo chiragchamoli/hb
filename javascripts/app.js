@@ -119,11 +119,11 @@
             thirtypc = parseInt(thirtypc) + 'px'
             seventypc = parseInt(seventypc) + 'px'
             seventypc = viewportWidth - 320;
-            seventypc = parseInt(seventypc) + 'px'
-            $("div.main").css('width',seventypc);
+            seventypcpx = parseInt(seventypc) + 'px'
+            $("div.main").css('width',seventypcpx);
             $("div.side").css('width','300px');
             $("div.sideshow").css('width','300px');
-            $("div.thread-content").css('width',(seventypc-40));
+            $("div.thread-content").css('width',(seventypc-40) + 'px');
             $("div.thread-content").css('margin-left','80px');
             $("div.thread-content").css('margin-right','100px');
             $("div.thread-content").css('margin-top','40px');
