@@ -69,10 +69,10 @@
            
             $("div.sideshow").css('width','300px');
            
-            var rws = parseInt((60 * viewportWidth) / 100);
+            var rws = parseInt((60 * viewportWidth) / 100) - 40;
             
             
-            $("div.thread-content").css('width',(rws-40) + 'px');
+            $("div.thread-content").css('width', rws + 'px');
             
             $("div.thread-content").css('margin-left','80px');
             $("div.thread-content").css('margin-right','100px');
