@@ -30,7 +30,7 @@
 
 
 
-<title><?php wp_title(); ?></title>
+<title>Hippiebudha :: <?php wp_title(); ?></title>
 
 
 
