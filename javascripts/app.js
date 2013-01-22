@@ -114,16 +114,26 @@
         console.log(viewportWidth);
         console.log(viewportHeight);
 
-            var thirtypc = (60 * viewportWidth) / 100;
-            var seventypc = (40 * viewportWidth) / 100;
+            var thirtypc = (40 * viewportWidth) / 100;
+            var seventypc = (60 * viewportWidth) / 100;
+            
             thirtypc = parseInt(thirtypc) + 'px'
             seventypc = parseInt(seventypc) + 'px'
+            
             seventypc = viewportWidth - 320;
+            
             seventypcpx = parseInt(seventypc) + 'px'
+            
             $("div.main").css('width',seventypcpx);
             $("div.side").css('width','300px');
+           
             $("div.sideshow").css('width','300px');
-            $("div.thread-content").css('width',(seventypc-40) + 'px');
+           
+            var rws = (60 * viewportWidth) / 100;
+            
+            
+            $("div.thread-content").css('width',(rws-40) + 'px');
+            
             $("div.thread-content").css('margin-left','80px');
             $("div.thread-content").css('margin-right','100px');
             $("div.thread-content").css('margin-top','40px');
